@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.animation-walk {
+  margin-left: 550px;
+  margin-top: 200px;
+  background-image: url(img/walk.png);
+  height: 184px;
+  width: 104px;
+  /* animation-name: walk;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(8); */
+  animation: walk 0.7s infinite steps(8);
+}
+@keyframes walk {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -832px 0;
+  }
+}
